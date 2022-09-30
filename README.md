@@ -57,3 +57,20 @@ However, since we ensemble bagging and random forest via the ensemble method, it
 which is comparable to a more complex method like the CNN approach.
 
 ![Screenshot](f1score.png)
+
+## File descriptions: 
+
+* data_processing.py: This class is for the Extract, Transform, and Load process of data. 
+* classifiers.py: This class generates the classifiers bagging, random forest, KNN, and logistic regression.  
+* bank.csv: This csv file is our data. 
+* Bank-marketing.ipynb: This notebook contains data analysis and data visualization of the dataset. 
+* cnn.py: This class generates the CNN classifier. 
+* ensemble.py: This class generates a classifier based on ensemble learning. 
+* cross_validation.py: This class computes f1 score of the machine learning models via the cross-validation approach.  
+
+## dependencies
+**Matplotlib, Pandas, TensorFlow, Scikit Learn, Imblearn, Deslib, Statsmodels**
+
+## How to run
+
+You need to run file main.py. 
