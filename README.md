@@ -49,3 +49,10 @@ methods are leveraged. In the next step, all classifiers that make at least one 
 The predictions from each classifier are then combined using a weighted average,
 where the number of correct predictions in the neighborhood indicates the number of votes 
 assigned to each classifier. Finally, based on the votes, the classification is performed.
+
+## Result 
+Based on the figure, we can observe that CNN and Ensemble learning algorithms achieve a higher F1 score compared to the other classifiers. 
+The result suggests that our CNN could capture some complexity of data and extract meaningful features. 
+However, since we ensemble bagging and random forest via the ensemble method, it could get a good result, 
+which is comparable to a more complex method like the CNN approach.
+![Screenshot](f1score.png)
