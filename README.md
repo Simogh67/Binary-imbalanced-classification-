@@ -58,7 +58,7 @@ which is comparable to a more complex method like the CNN approach.
 
 ![Screenshot](f1score.png)
 
-## File descriptions: 
+## Files Description: 
 
 * data_processing.py: This class is for the Extract, Transform, and Load process of data. 
 * classifiers.py: This class generates the classifiers bagging, random forest, KNN, and logistic regression.  
