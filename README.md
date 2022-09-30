@@ -34,10 +34,7 @@ The result of our classifier can help marketing business planners to focus on cu
 ![Screenshot](pie2.png)
 
 Based on the figure, only 9% of the customers said yes to the campaign. Therefore, the problem at hand is an imbalanced 
-classification problem. 
-
-We leverage machine learning classification algorithms to answer the above question.
-
+classification problem. We leverage machine learning classification algorithms to answer the above question.
 Here, the outcome variable is the result of the marketing campaign, and predictor variables 
 are the rest of the information included in the dataset. 
 
