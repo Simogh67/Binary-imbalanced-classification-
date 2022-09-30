@@ -27,14 +27,14 @@ Let's, take a look at the dataset via the following data dictionary:
  y - has the client subscribed a term deposit? (binary: "yes","no").
  
 ## Classification: 
-Based on the dataset, in this repository, we provide a classifier to increase the success rate of future marketing campaigns. 
-Our classifier takes customers' personal information and then predicts the customers' answer, i.e. yes or no to future marketing campaigns.
-The result of our classifier can help marketing business planners to focus on customers who are more willing to accept their offers. 
+Based on the dataset, in this repository, we provide a machine elarning pipline to increase the success rate of future marketing campaigns. 
+Our pipeline takes customers' personal information and then predicts the customers' answer, i.e. yes or no to future marketing campaigns.
+The result of the pipeline can help marketing business planners to focus on customers who are more willing to accept their offers. 
 
 ![Screenshot](pie2.png)
 
 Based on the figure, only 9% of the customers said yes to the campaign. Therefore, the problem at hand is an imbalanced 
-classification problem. We leverage machine learning classification algorithms to answer the above question.
+classification problem. We leverage machine learning classification algorithms to reach the goal.
 Here, the outcome variable is the result of the marketing campaign, and predictor variables 
 are the rest of the information included in the dataset. 
 
@@ -43,7 +43,7 @@ cost-sensitive 1D convolutional neural networks, k-nearest neighbors method, and
 
 Moreover, since our task is an imbalanced classification problem, we try the ensemble learning technique. 
 
-First, we build a pool of classifiers (pick the best classifiers among the above methods). 
+First, we build a pool of classifiers (bagging and random forest trees). 
 Then, to make the dataset more balanced, under-sampling (Random Under sampling technique) and over-sampling (Synthetic Minority Oversampling Technique) 
 methods are leveraged. In the next step, all classifiers that make at least one correct prediction are selected. 
 The predictions from each classifier are then combined using a weighted average,
@@ -52,7 +52,7 @@ assigned to each classifier. Finally, based on the votes, the classification is 
 
 ## Result 
 Based on the figure, we can observe that CNN and Ensemble learning algorithms achieve a higher F1 score compared to the other classifiers. 
-The result suggests that our CNN could capture some complexity of data and extract meaningful features. 
+The result suggests that our CNN could capture some portion of data complexity and extract meaningful features. 
 However, since we ensemble bagging and random forest via the ensemble method, it could get a good result, 
 which is comparable to a more complex method like the CNN approach.
 
@@ -60,17 +60,18 @@ which is comparable to a more complex method like the CNN approach.
 
 ## Files Description: 
 
-* data_processing.py: This class is for the Extract, Transform, and Load process of data. 
-* classifiers.py: This class generates the classifiers bagging, random forest, KNN, and logistic regression.  
-* bank.csv: This csv file is our data. 
+* data_processing.py: This class is for the ETL process of data. 
+* classifiers.py: This class generates classifiers bagging, random forest, KNN, and logistic regression.  
+* bank.csv: This csv file contains the dataset. 
 * Bank-marketing.ipynb: This notebook contains data analysis and data visualization of the dataset. 
 * cnn.py: This class generates the CNN classifier. 
 * ensemble.py: This class generates a classifier based on ensemble learning. 
-* cross_validation.py: This class computes f1 score of the machine learning models via the cross-validation approach.  
+* cross_validation.py: This class computes f1 score of the classifiers via the cross-validation approach.  
 
-## dependencies
+## Dependencies:
+
 **Matplotlib, Pandas, TensorFlow, Scikit Learn, Imblearn, Deslib, Statsmodels**
 
-## How to run
+## How to run:
 
 You need to run file main.py. 
