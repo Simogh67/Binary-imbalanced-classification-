@@ -55,4 +55,5 @@ Based on the figure, we can observe that CNN and Ensemble learning algorithms ac
 The result suggests that our CNN could capture some complexity of data and extract meaningful features. 
 However, since we ensemble bagging and random forest via the ensemble method, it could get a good result, 
 which is comparable to a more complex method like the CNN approach.
+
 ![Screenshot](f1score.png)
