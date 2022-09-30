@@ -4,7 +4,7 @@ The data is related with a direct marketing campaign of a Portuguese banking ins
 The marketing campaign was based on phone calls. Often, more than one contact to the same client was required, 
 in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
-##Data Dictionary
+## Data Dictionary
 
 Let's, take a look at the dataset via the following data dictionary:
 
