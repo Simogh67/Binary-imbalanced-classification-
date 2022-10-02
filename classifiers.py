@@ -22,6 +22,6 @@ class Classifiers():
         return classifier,name
     
     def get_LR (self):
-        classifier=LogisticRegression(solver='sag')
+        classifier=LogisticRegression(solver='sag', class_weight='balanced')
         name='LR'
         return classifier,name
