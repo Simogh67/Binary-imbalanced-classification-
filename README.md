@@ -63,7 +63,6 @@ which is comparable to a more complex method like the CNN approach.
 * data_processing.py: This class is for the ETL process of data. 
 * classifiers.py: This class generates classifiers bagging, random forest, KNN, and logistic regression.  
 * bank.csv: This csv file contains the dataset. 
-* Bank-marketing.ipynb: This notebook contains data analysis and data visualization of the dataset. 
 * cnn.py: This class generates the CNN classifier. 
 * ensemble.py: This class generates a classifier based on ensemble learning. 
 * cross_validation.py: This class computes f1 score of the classifiers via the cross-validation approach.  
