@@ -75,4 +75,4 @@ which is comparable to a more complex method like the CNN approach.
 
 You need to run file main.py. 
 
-Medium Post: https://medium.com/@sorensvenson85/marketing-enhancement-via-machine-learning-2bce0078cb74
+**Please read the medium post of this project attached to this repository (the medium-post PDF)**. 
